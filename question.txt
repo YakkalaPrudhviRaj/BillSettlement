@@ -1,0 +1,17 @@
+A program that will settle bills among the people. For test data, used the below data
+Bill 1 - Lunch
+Total Amount	2000
+Paid By	        Balaji
+Shared by	    Anand, Balaji, Chaitanya, Divya
+Bill 2 - Movie ticket
+Total Amount	1000
+Paid By	        Anand
+Shared by	    Anand, Balaji, Chaitanya, Divya
+Bill 3 - snacks (excludes Divya)
+Total Amount	750
+Paid By	        Chaitanya
+Shared By	    Anand, Balaji, Chaitanya
+The program should settle the bills among the people and print who pays how much to whom.
+
+Summary:
+This program calculates the balances owed between a group of friends after splitting bills. The program uses a Map to keep track of each person's balance, and a List of Bills to store the details of each transaction. For each bill, the program calculates the share per person and updates the balances accordingly. Finally, the program prints the balances owed by each person. The Bill class is used to store the details of each transaction
